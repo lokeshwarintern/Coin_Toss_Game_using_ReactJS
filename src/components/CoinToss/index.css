@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-toss-game-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  padding: 20px;
+  width: 400px;
+}
+
+.heading-ele {
+  color: #e2a139;
+  font-family: Roboto;
+  font-size: 40px;
+}
+
+.para-ele {
+  color: #334155;
+  font-family: Roboto;
+  font-size: 24px;
+}
+
+.toss-img {
+  height: 200px;
+}
+
+.btn-ele {
+  background-color: #e2a139;
+  padding: 8px;
+  border-width: 0px;
+  border-radius: 7px;
+  color: #a35200;
+  font-weight: bold;
+  margin-top: 22px;
+}
+
+.toss-count {
+  color: #475569;
+  font-weight: bold;
+  font-family: Roboto;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
